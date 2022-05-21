@@ -36,14 +36,7 @@
 	git submodule update --remote package/helloworld
 	```
 
-- Remove
 
-  ```bash
-  git submodule deinit -f package/helloworld
-  git rm -f package/helloworld
-  git reset HEAD .gitmodules
-  rm -rf .git/modules{/,/package/}helloworld
-  ```
 
 ### Method 3 - Add this repo as an OpenWrt feed
 
